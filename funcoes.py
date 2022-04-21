@@ -34,8 +34,8 @@ def mudarValoresKnapSack(W, wt, val, n):
 
 
 # --- Grafos 2 - PRIM ---
-vetorPontosTuristicos = ["Praia Leblon", "Rocinha", "Lagoa", "Jardim Botânico", " Cristo Redentor",
-                         "Sambódramo", "Aeroporto", "Praia de Copacabana", "Pão De Açúcar", "Baía de Guanabara"
+vetorPontosTuristicos = ["PhiLen", "Zanzicave", "Doong", "Kavera", "Mycape",
+                         "Maiorc", "Vatnajok", "Snowpe", "Banhall", "Algrep"
                          ]
 
 

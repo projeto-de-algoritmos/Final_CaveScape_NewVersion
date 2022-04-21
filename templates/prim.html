@@ -25,8 +25,8 @@
     </div>
 
 
-    <div class="img-caminho">
-        <img class="img-caminho" src="../static/img/grafo_fixo.png">
+    <div class="img-caminho-prim">
+        <img class="img-caminho-prim" src="../static/img/grafo_fixo.png">
     </div>
 
     <div class="caminho">
@@ -64,33 +64,33 @@
         <p class="impact-text">Seu objetivo aqui é descobrir qual o menor custo para conectar todos os pontos do mapa
         </p>
         <div class="group">
-            <h1 class="aresta1">* Praia Leblon - Rocinha: R$ {{aresta1}},00</h1>
-            <h1 class="aresta2">* Praia Leblon - Lagoa: R$ {{aresta2}},00</h1>
-            <h1 class="aresta3">* Praia Leblon - Praia Copacabana: R$ {{aresta3}},00</h1>
-            <h1 class="aresta4">* Lagoa - Rocinha: R$ {{aresta4}},00</h1>
-            <h1 class="aresta5">* Jardim Botânico - Rocinha: R$ {{aresta5}},00</h1>
-            <h1 class="aresta6">* Jardim Botânico - Lagoa: R$ {{aresta6}},00</h1>
-            <h1 class="aresta7">* Cristo Redentor - Jardim Botânico: R$ {{aresta7}},00</h1>
-            <h1 class="aresta8">* Sambódramo - Jardim Botânico: R$ {{aresta8}},00</h1>
-            <h1 class="aresta9">* Sambódromo - Cristo: R$ {{aresta9}},00</h1>
-            <h1 class="aresta10">* Aeroporto - Cristo Redentor: R$ {{aresta10}},00</h1>
-            <h1 class="aresta11">* Aeroporto - Sambódromo: R$ {{aresta11}},00</h1>
-            <h1 class="aresta12">* Praia de Copacabana - Cristo Redentor: R$ {{aresta12}},00</h1>
-            <h1 class="aresta13">* Pão de Açúcar - Cristo Redentor: R$ {{aresta13}},00</h1>
-            <h1 class="aresta14">* Praia de Copacabana - Lagoa: R$ {{aresta14}},00</h1>
-            <h1 class="aresta15">* Aeroporto - Praia de Copacabana: R${{aresta15}},00</h1>
-            <h1 class="aresta16">* Aeroporto - Pão de Açúcar: R$ {{aresta16}},00</h1>
-            <h1 class="aresta17">* Pão de Açúcar - Praia de Copacabana: R$ {{aresta17}},00</h1>
-            <h1 class="aresta18">* Pão de Açúcar - Baia de Guanabara: R$ {{aresta18}},00</h1>
-            <h1 class="aresta19">* Lagoa - Cristo Redentor: R$ {{aresta19}},00</h1>
+            <h1 class="aresta1">* PhiLen - Zanzicave: R$ {{aresta1}},00</h1>
+            <h1 class="aresta2">* PhiLen - Doong: R$ {{aresta2}},00</h1>
+            <h1 class="aresta3">* PhiLen - Snowpe: R$ {{aresta3}},00</h1>
+            <h1 class="aresta4">* Doong - Zanzicave: R$ {{aresta4}},00</h1>
+            <h1 class="aresta5">* Kavera - Zanzicave: R$ {{aresta5}},00</h1>
+            <h1 class="aresta6">* Kavera - Doong: R$ {{aresta6}},00</h1>
+            <h1 class="aresta7">* Mycape - Kavera: R$ {{aresta7}},00</h1>
+            <h1 class="aresta8">* Maiorc - Kavera: R$ {{aresta8}},00</h1>
+            <h1 class="aresta9">* Maiorc - Mycape: R$ {{aresta9}},00</h1>
+            <h1 class="aresta10">* Vatnajok - Mycape: R$ {{aresta10}},00</h1>
         </div>
-        <p class="impact-text">RESULTADO</p>
+        <div class="group-prim">
+            <h1 class="aresta11">* Vatnajok - Maiorc: R$ {{aresta11}},00</h1>
+            <h1 class="aresta12">* Snowpe - Mycape: R$ {{aresta12}},00</h1>
+            <h1 class="aresta13">* Banhall - Mycape: R$ {{aresta13}},00</h1>
+            <h1 class="aresta14">* Snowpe - Doong: R$ {{aresta14}},00</h1>
+            <h1 class="aresta15">* Vatnajok - Snowpe: R${{aresta15}},00</h1>
+            <h1 class="aresta16">* Vatnajok - Banhall: R$ {{aresta16}},00</h1>
+            <h1 class="aresta17">* Banhall - Snowpe: R$ {{aresta17}},00</h1>
+            <h1 class="aresta18">* Banhall - Algrep: R$ {{aresta18}},00</h1>
+            <h1 class="aresta19">* Doong - Mycape: R$ {{aresta19}},00</h1>
+        </div>
         <h1 class="resultado">{{resultado}}</h1>
         <br>
-        <p class="impact-text">TOTAL</p>
-        <h1 class="resultado">R$ {{total}},00</h1>
+        <h1 class="resultado">Resposta: {{total}},00</h1>
         <form class="knapsack" action="" method="post">
-            <h1> Qual o menor custo para visitar todos os pontos
+            <h1> Qual o menor custo para visitar todos os pontos?
             </h1>
             <div class="envio">
                 <input type="number" name="valor" required>
