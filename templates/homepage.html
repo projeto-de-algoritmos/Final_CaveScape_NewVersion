@@ -13,23 +13,98 @@
     </div>
     <div class="box-body">
         <div class="corner">
-                <h1 class="impact-text"><b><b class="impact">NOVA VERSÃO!</class></b> VOCÊ ESTÁ DENTRO DE UMA CAVERNA E PRECISA ESCAPAR DELA!</b></h1>
-                <p class="text">Você tem acesso a um mapa onde mostra todos os postos dentro da caverna, porém percebe que ele
-                    está
-                    desatualizado!</br>
-                    No mapa que você tem, todos os postos estão conectados entre si, e algumas conexões não existem mais.</br>
-                    O seu objetivo é sair da caverna testando se existem caminhos ou não entre os postos.</p>
-                <p class="new-text">Mas agora, há desafios!
-                    Você terá que carregar moedas com você até a saída! <br> É preciso que você defina nos postos qual
-                    o maior valor de moedas que consegue levar a partir do máximo de Kg dados!
+            <h1 class="impact-text"><b><b class="impact">NOVA VERSÃO!</class></b> VOCÊ ESTÁ DENTRO DE UMA CAVERNA E PRECISA ESCAPAR DELA!</b></h1>
+                <p class="new-text">
+                    Agora há diversas maneiras de jogar! Escolha uma e escape da caverna seguindo as instruções!
                 </p>
-                <img class="img" src="./static/img/caveScapemap.png">
-
-                <form class="text-envio" action="http://127.0.0.1:5000/" method="post">
-                    <label for=""> Você está no posto nº: {{no}}.<br> Onde deseja ir? </label><br>
-                    <input type="number" min="1" max="10" name="name" placeholder="Posto." required>
-                    <button type="submit">Enviar</button>
-                </form>
+    
+            <div class=" Grupo">
+                <div class="container">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="CardModo">
+                                    <img src="../static/img/graph1.png" width="220" height="220">
+                                    <h5>MODO 1</h5>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="CardModo">
+                                    <h5>Esse modo é a versão original. O seu objetivo é sair da caverna testando se existem caminhos ou não entre os postos.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="CardModo">
+                                    <img src="../static/img/GRAPH2.png" width="220" height="220">
+                                    <h5>MODO 2</h5>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="CardModo">
+                                    <h5>Esse modo traz enigmas de Grafos 2. O seu objetivo é encontrar a saída, mas para isso é preciso encontrar as respostas em cada posto!</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="CardModo">
+                                    <img src="../static/img/GREED.png" width="220" height="220">
+                                    <h5>MODO 3</h5>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="CardModo">
+                                    <h5></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="CardModo">
+                                    <img src="../static/img/dc.png" width="220" height="220">
+                                    <h5>MODO 4</h5>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="CardModo">
+                                    <h5></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="CardModo">
+                                    <img src="./static/img/PD.PNG" width="220" height="220">
+                                    <h5>MODO 5</h5>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="CardModo">
+                                    <h5>Esse modo traz enigmas de Programação Dinâmica. O seu objetivo é encontrar a saída, mas para isso solucione os enigmas! </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
