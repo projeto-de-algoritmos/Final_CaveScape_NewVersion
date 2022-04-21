@@ -43,7 +43,7 @@
     color: red;
 }
 
-.new-text{
+.new-text {
     margin: 0px 100px;
     margin-bottom: 0px;
     text-align: center;
@@ -54,6 +54,7 @@
     position: relative;
     color: white;
 }
+
 .text {
     margin: 0px 100px;
     margin-bottom: 0px;
@@ -286,43 +287,129 @@ body {
     float: left;
 }
 
-.tag{
+.tag {
     transform: rotate(180deg);
     color: gray;
 }
-.card{
+
+.card {
     position: absolute;
     margin: 0 auto 0 auto;
     width: 30%;
     height: 250px;
     z-index: 9999;
-    
+
 }
-.alert{
+
+.alert {
     margin: auto;
     font-size: 25px;
     width: 50%;
     background-color: red;
 }
-.card-header{
+
+.card-header {
     font-size: 30px;
 }
 
-.img-moeda{
+.img-moeda {
     width: 30px;
     height: 30px;
 }
 
-table{
+table {
     font-size: 20px;
     width: 45%;
     background-color: #964B00;
     border-radius: 20px;
     color: black;
-    padding:5px;
+    padding: 5px;
     margin: auto;
     line-height: 40px;
 }
-.linha-clara{
+
+.linha-clara {
     background-color: #ac5701;
+}
+
+.aresta1 {
+    color: #660066
+}
+
+.aresta2 {
+    color: yellow;
+}
+
+.aresta3 {
+    color: #9E5320
+}
+
+.aresta4 {
+    color: #9DA2EB
+}
+
+.aresta5 {
+    color: #0066FF
+}
+
+.aresta6 {
+    color: #80E884
+}
+
+.aresta7 {
+    color: #F04946
+}
+
+.aresta8 {
+    color: #E85D97
+}
+
+.aresta9 {
+    color: #669900
+}
+
+.aresta10 {
+    color: #ED2468
+}
+
+.aresta11 {
+    color: #E88351
+}
+
+.aresta12 {
+    color: #9E966F
+}
+
+.aresta13 {
+    color: #85CBF8
+}
+
+.aresta14 {
+    color: #EBA708
+}
+
+.aresta15 {
+    color: #24ED65
+}
+
+.aresta16 {
+    color: #51E8DD
+}
+
+.aresta17 {
+    color: #4F9E95
+}
+
+.aresta18 {
+    color: #9933FF
+}
+
+.aresta19 {
+    color: white
+}
+
+.resultado {
+    display: block;
+    font-size: 20px;
+    align-items: center;
 }

@@ -24,7 +24,7 @@
         <img class="title-logo" src="{{ url_for('static', filename='img/logo_cave_scape.png')}}">
     </div>
 
-   
+
     <div class="img-caminho">
         <img class="img-caminho" src="{{ url_for('static', filename='img/mochila.png')}}">
     </div>
@@ -38,14 +38,14 @@
         {%if category == 'success' %}
         <div class="card text-white bg-success position-absolute fixed-top col-6">
             <span class="card-header">{{msg}}</span>
-                <div class="card-body">
-                    <h5 class="card-title">Você está um passo mais perto para sair da caverna!</h5>
-                    <form class="text-caminho" action="http://127.0.0.1:5000/caminho/{{no}}" method="post">
-                        <label for="">Onde deseja ir? Insira o número do posto. </label><br>
-                        <input type="number" min="1" max="10" name="name" placeholder="Posto." required>
-                        <button type="submit">Enviar</button>
-                    </form>
-                </div>
+            <div class="card-body">
+                <h5 class="card-title">Você está um passo mais perto para sair da caverna!</h5>
+                <form class="text-caminho" action="http://127.0.0.1:5000/knapsack/{{no}}" method="post">
+                    <label for="">Onde deseja ir? Insira o número do posto. </label><br>
+                    <input type="number" min="1" max="10" name="name" placeholder="Posto." required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
         {% endif %}
 
@@ -62,7 +62,7 @@
 
         <h1>Você se encontra no posto nº: {{no}}</h1>
         <p class="impact-text">As moedas deste posto com seus valores e pesos são:</p>
-        
+
         <table cellpadding="5px">
             <tr>
                 <td>Moeda</td>
@@ -98,7 +98,8 @@
         <p class="tag">Resposta: {{resposta}}.</p>
 
         <form class="knapsack" action="" method="post">
-            <h1>Qual o maior valor de moedas que você consegue levar <br>tendo {{peso}} quilos disponíveis na mochila?</h1>
+            <h1>Qual o maior valor de moedas que você consegue levar <br>tendo {{peso}} quilos disponíveis na mochila?
+            </h1>
             <div class="envio">
                 <input type="number" name="valor" required>
                 <button type="submit">Enviar</button>
