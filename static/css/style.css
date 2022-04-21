@@ -65,6 +65,15 @@
     position: relative;
 }
 
+.text-original{
+    margin: 0px 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+    position: relative;
+}
 .text-envio {
     float: left;
     margin: 100px 100px;

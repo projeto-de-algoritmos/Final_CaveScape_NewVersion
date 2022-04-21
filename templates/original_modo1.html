@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CaveScape</title>
+    <link rel="stylesheet" href="./static/css/style.css"> </head>
+
+<body>
+
+    <div class="navbar">
+        <img class="title-logo" src="./static/img/logo_cave_scape.png">
+    </div>
+    <div class="box-body">
+        <div class="corner">
+                <p class="text">Você tem acesso a um mapa onde mostra todos os postos dentro da caverna, porém percebe que ele
+                    está
+                    desatualizado!</br>
+                    No mapa que você tem, todos os postos estão conectados entre si, e algumas conexões não existem mais.</br>
+                    O seu objetivo é sair da caverna testando se existem caminhos ou não entre os postos.</p>
+
+                <img class="img" src="./static/img/caveScapemap.png">
+
+                <form class="text-envio" action="http://127.0.0.1:5000/" method="post">
+                    <label for=""> Você está em {{no}}. Onde deseja ir? </label><br>
+                    <input type="number" min="1" max="10" name="name" placeholder="Posto." required>
+                    <button type="submit">Enviar</button>
+                </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

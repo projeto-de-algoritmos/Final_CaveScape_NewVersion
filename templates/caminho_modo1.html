@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Você está em {{no}}.</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}"> 
+</head>
+
+<body>
+    <div class="navbar">
+        <img class="title-logo" src="{{ url_for('static', filename='img/logo_cave_scape.png')}}">
+    </div>
+    <div class="caminho">
+        <h1>Você se encontra em: {{no}}</h1>
+        <form class="text-caminho" action="http://127.0.0.1:5000/caminho/{{no}}" method="post">
+            <label for="">Onde deseja ir? Insira o número do posto. </label><br>
+            <input type="number" min="1" max="10" name="name" placeholder="Posto." required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
