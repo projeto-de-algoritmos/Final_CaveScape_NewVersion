@@ -274,7 +274,15 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
 }
-
+.caminho-original{
+    margin-top:20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+}
 .caminho {
     margin: 30px;
     color: white;

@@ -85,7 +85,7 @@ app.config['SECRET_KEY'] = "minha-palavra-secreta"
 def homepage():
     no = "1"
     if request.method == "GET":
-        return render_template("homepage.html", no=no)
+        return render_template("caminho_modo1.html", no=no)
 
     else:
 
