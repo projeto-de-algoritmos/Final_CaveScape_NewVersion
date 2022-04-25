@@ -45,7 +45,7 @@ Figura 5: Tela de quando não acerta o menor custo para acessar os postos. Mensa
 ![image](https://user-images.githubusercontent.com/52542729/165184874-334e1abe-bfaf-45bc-8d3d-26ee86099f13.png)
 Figura 6: Tela de quando acerta o menor custo para acessar os postos. Mensagem de Acerto.
 
-### Modo 3:
+### Modo 5:
 
 ![image](https://user-images.githubusercontent.com/52542729/165184948-55af1bbb-801a-4e7a-8637-13414f73577c.png)
 Figura 7: Tela inicial do modo 5.
