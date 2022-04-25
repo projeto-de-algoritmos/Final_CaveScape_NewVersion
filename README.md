@@ -18,7 +18,7 @@ NOVIDADE!!! <br>
 Agora o jogo apresenta alguns modos de jogar. Cada modo é ligado a um módulo da disciplina. 3 modos foram implementados referentes a Grafo 1, a Grafo 2 e a Programação Dinâmica.  <br><br>
 * No modo 1, temos a versão original do jogo. Onde o usuário deve encontrar os postos que estão interligados entre si até encontrar a saída. <br>
 * No modo 2, temos a versão relacionada a Grafos 2, onde em cada posto acessado, o usuário deverá resolver enigmas relacionados ao menor custo em CaveCoins (moedas) para acessar todos os postos. <br>
-* Os modos 3 e 4, ainda estão em fase de desenvolvimento, não conseguimos linkar muito bem os conteúdos com a temática, mas podemos implementar algo a mais. <br>
+* Os modos 3 e 4, ainda estão em fase de desenvolvimento, não conseguimos linkar muito bem os conteúdos com a temática, mas ainda pode-se implementar algo a mais. <br>
 * No modo 5, temos a versão relacionada a Programação Dinâmica, onde em cada posto acessado, o usuário deverá resolver enigmas relacionados a maior quantidade de CaveCoins que o usuário consegue carregar até a saída.
 
 ## Screenshots
@@ -85,7 +85,7 @@ Os caminhos que existem entre os postos (nós) são os seguintes:
 | 10  | 5 |
 
 * Para uma rápida avaliação do jogo, no modo 2, a resposta com o menor custo para percorrer todos os postos está rotacionada embaixo da listagem. <br>
-* 
+
 * Para uma rápida avaliação do jogo, no modo 5, a resposta com o maior valor das CaveCoins de cada posto está rotacionada embaixo da tabela de valores. <br>
 
 * Ao acertar as respostas, nos modos 2 e 5, aparecerá uma mensagem de acerto e você terá que ir para outro posto. <br>
