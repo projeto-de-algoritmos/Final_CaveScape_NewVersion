@@ -59,9 +59,11 @@
         {% endfor %}
 
         {% endif %}
-
+        
         <h1>Você se encontra no posto nº: {{no}}</h1>
-        <p class="impact-text">As moedas deste posto com seus valores e pesos são:</p>
+        <p class="text">Seu objetivo aqui é carreguar o maior valor de CaveCoins (moedas) até a saída!
+        </p>
+        <p class="impact-text">As CaveCoins deste posto com seus valores e pesos são:</p>
 
         <table cellpadding="5px">
             <tr>
@@ -98,7 +100,7 @@
         <p class="tag">Resposta: {{resposta}}.</p>
 
         <form class="knapsack" action="" method="post">
-            <h1>Qual o maior valor de moedas que você consegue levar <br>tendo {{peso}} quilos disponíveis na mochila?
+            <h1>Qual o maior valor de CaveCoins que você consegue levar <br>tendo {{peso}} quilos disponíveis na mochila?
             </h1>
             <div class="envio">
                 <input type="number" name="valor" required>
