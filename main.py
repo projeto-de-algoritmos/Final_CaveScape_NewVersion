@@ -1,8 +1,8 @@
+from re import template
+
+from urllib3 import Retry
 from funcoes import knapSack, mudarValoresKnapSack, Graphico, vetorPontosTuristicos, mudarValoresArestas
-from cgitb import html
-from webbrowser import get
 from flask import Flask, render_template, request, flash, redirect, url_for
-import random
 
 
 # -- Estruturas---
@@ -84,8 +84,14 @@ app.config['SECRET_KEY'] = "minha-palavra-secreta"
 @app.route('/', methods=['GET', 'POST'])
 def homepage():
     no = "1"
+    return render_template("homepage.html", no=no)
+
+
+@app.route('/graph', methods=['GET', 'POST'])
+def graph():
+    no = 1
     if request.method == "GET":
-        return render_template("caminho_modo1.html", no=no)
+        return render_template("graph.html", no=no)
 
     else:
 
@@ -93,7 +99,23 @@ def homepage():
 
         if (palpite in adj_list[no]):
             no = palpite
-            return redirect(url_for('knapsack', no_destino=no))
+            return redirect(url_for('caminho', no_destino=no))
+        else:
+            return redirect(url_for('errou'))
+
+
+@app.route('/caminho/<no_destino>', methods=['GET', 'POST'])
+def caminho(no_destino):
+    no = no_destino
+    if request.method == "GET":
+        return render_template('caminho.html', no=no)
+    else:
+        palpite = str(request.form.get("name"))
+        if (palpite == "10" and palpite in adj_list[no]):
+            return redirect(url_for('vitoria'))
+        if (palpite in adj_list[no]):
+            no = palpite
+            return redirect(url_for('caminho', no_destino=no))
         else:
             return redirect(url_for('errou'))
 
@@ -204,7 +226,7 @@ def prim(no_destino):
                 return redirect(url_for('prim', no_destino=no))
             if(valor != total):
                 flash("Resposta errada! Tente de Novo!", "warning")
-                return f"{valor} {total}"
+                return redirect(url_for('prim', no_destino=no))
         except:
             palpite = str(request.form.get("name"))
             if (palpite == "10" and palpite in adj_list[no]):
