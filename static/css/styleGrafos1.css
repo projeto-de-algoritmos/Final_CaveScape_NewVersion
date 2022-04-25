@@ -29,11 +29,12 @@
     font-size: 25px;
     font-family:'Franklin Gothic Medium', Arial, sans-serif;
     text-align: center;
-    color: #c21919;
+    color: white;
     margin-bottom: 0px;
     z-index: 2;
     position: relative;
 }
+
 .text {
     margin: 0px 100px;
     margin-bottom: 0px;
