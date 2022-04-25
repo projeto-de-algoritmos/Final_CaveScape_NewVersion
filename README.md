@@ -2,8 +2,7 @@
 
 # New Version - CaveScape
 
-**Número da Lista**: 5 <br>
-**Conteúdo da Disciplina**: Programação Dinâmica
+**Trabalho Final** <br>
 
 ## Alunos
 |Matrícula | Aluno |
@@ -16,27 +15,53 @@ Você está dentro de uma caverna e precisa escapar dela! Você tem acesso a um 
 
 NOVIDADE!!! <br>
 
-Mas agora, há desafios! Você terá que carregar moedas com você até a saída! É preciso que você defina nos postos qual
-o maior valor de moedas que consegue levar a partir do máximo de Kg dados!
+Agora o jogo apresenta alguns modos de jogar. Cada modo é ligado a um módulo da disciplina. 3 modos foram implementados referentes a Grafo 1, a Grafo 2 e a Programação Dinâmica.  <br><br>
+* No modo 1, temos a versão original do jogo. Onde o usuário deve encontrar os postos que estão interligados entre si até encontrar a saída. <br>
+* No modo 2, temos a versão relacionada a Grafos 2, onde em cada posto acessado, o usuário deverá resolver enigmas relacionados ao menor custo em CaveCoins (moedas) para acessar todos os postos. <br>
+* Os modos 3 e 4, ainda estão em fase de desenvolvimento, não conseguimos linkar muito bem os conteúdos com a temática, mas podemos implementar algo a mais. <br>
+* No modo 5, temos a versão relacionada a Programação Dinâmica, onde em cada posto acessado, o usuário deverá resolver enigmas relacionados a maior quantidade de CaveCoins que o usuário consegue carregar até a saída.
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/52542729/163654706-2fae760d-81ec-402a-9019-c8cea27e037d.png)
+
+### Tela Inicial
+![image](https://user-images.githubusercontent.com/52542729/165184390-c92957cb-8ed0-4432-963f-7b3f61767d0d.png)
 Figura 1: Tela inicial.
 
-![image](https://user-images.githubusercontent.com/52542729/163659615-113a53a2-1acd-4eb8-b6cf-41310b17add8.png)
-Figura 2: Tela de quando há caminho entre os postos.
+### Modo 1:
+![image](https://user-images.githubusercontent.com/52542729/165184459-4439155c-596a-4ef6-b7fb-eafff1b167ca.png)
+Figura 2: Tela inicial do modo 1.
 
-![image](https://user-images.githubusercontent.com/52542729/163654735-66860ab7-0dda-4566-b9bc-e63750a633a7.png)
-Figura 3: Tela de quando não há caminho entre os postos. Mensagem de Erro (GameOver).
+![image](https://user-images.githubusercontent.com/52542729/165184521-fc52da0b-e388-4747-aba0-1486789d0879.png)
+Figura 3: Tela de caminhos do modo 1.
 
-![image](https://user-images.githubusercontent.com/52542729/163654800-736f455c-ac44-41d0-b412-d65aa7dfb77e.png)
-Figura 4: Tela de quando encontra a saída. Mensagem de Vitória.
+### Modo 2:
 
-![image](https://user-images.githubusercontent.com/52542729/163681386-289491c4-0ccb-4b8f-9406-76d34da2e942.png)
-Figura 5: Tela de quando acerta o maior valor. Mensagem de Acerto.
+![image](https://user-images.githubusercontent.com/52542729/165184673-895caa9c-cb67-4f9e-a480-791c2526f14d.png)
+Figura 4: Tela inicial do modo 2.
 
-![image](https://user-images.githubusercontent.com/52542729/163682229-0a350145-41ac-49ba-bc2b-c9bbbdcc1dd6.png)
-Figura 6: Tela de quando não acerta o maior valor. Mensagem de Erro.
+![image](https://user-images.githubusercontent.com/52542729/165184756-d228be4c-499f-40bc-8ffb-b6dadfd4fb27.png)
+Figura 5: Tela de quando não acerta o menor custo para acessar os postos. Mensagem de Erro.
+
+![image](https://user-images.githubusercontent.com/52542729/165184874-334e1abe-bfaf-45bc-8d3d-26ee86099f13.png)
+Figura 6: Tela de quando acerta o menor custo para acessar os postos. Mensagem de Acerto.
+
+### Modo 3:
+
+![image](https://user-images.githubusercontent.com/52542729/165184948-55af1bbb-801a-4e7a-8637-13414f73577c.png)
+Figura 7: Tela inicial do modo 5.
+
+![image](https://user-images.githubusercontent.com/52542729/165185004-07bd9d9e-3709-4685-9e3d-b74769fce4b0.png)
+Figura 8: Tela de quando não acerta o maior valor de CaveCoins que pode levar. Mensagem de Erro.
+
+![image](https://user-images.githubusercontent.com/52542729/165185091-7693de0c-3df4-43f6-98f4-7ec5a3f0202c.png)
+Figura 9: Tela de quando acerta o maior valor de caveCoins que pode levar. Mensagem de Acerto.
+
+### Telas Gerais - Game Over e Vitória
+![image](https://user-images.githubusercontent.com/52542729/165185185-6e99e7b8-c386-4ca3-866a-e5ab2f6e2a69.png)
+Figura 10: Tela de Game Over, quando não há caminho entre os postos.
+
+![image](https://user-images.githubusercontent.com/52542729/165185264-145b0f54-ecf0-4260-b966-85679426b117.png)
+Figura 11: Tela de Vitória, quando encontra a saída.
 
 ## Instalação 
 **Linguagem**: Python, HTML e CSS. <br>
@@ -59,9 +84,11 @@ Os caminhos que existem entre os postos (nós) são os seguintes:
 | 9  | 8 |
 | 10  | 5 |
 
-* Para uma rápida avaliação do jogo, a resposta com o maior valor das moedas de cada posto está rotacionada embaixo da tabela de valores. <br>
+* Para uma rápida avaliação do jogo, no modo 2, a resposta com o menor custo para percorrer todos os postos está rotacionada embaixo da listagem. <br>
+* 
+* Para uma rápida avaliação do jogo, no modo 5, a resposta com o maior valor das CaveCoins de cada posto está rotacionada embaixo da tabela de valores. <br>
 
-* Ao acertar o valor máximo, aparecerá uma mensagem de acerto e você terá que ir para outro posto. <br>
+* Ao acertar as respostas, nos modos 2 e 5, aparecerá uma mensagem de acerto e você terá que ir para outro posto. <br>
 
 * Ao errar, uma mensagem de erro aparecerá e você deverá tentar novamente.
 
