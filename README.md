@@ -47,7 +47,7 @@ Figura 6: Tela de quando acerta o menor custo para acessar os postos. Mensagem d
 
 ### Modo 5:
 
-![image](https://user-images.githubusercontent.com/52542729/165184948-55af1bbb-801a-4e7a-8637-13414f73577c.png)
+![image](https://user-images.githubusercontent.com/52542729/165188658-048ae881-d182-43c8-9858-7e55dcbd39ce.png)
 Figura 7: Tela inicial do modo 5.
 
 ![image](https://user-images.githubusercontent.com/52542729/165185004-07bd9d9e-3709-4685-9e3d-b74769fce4b0.png)
