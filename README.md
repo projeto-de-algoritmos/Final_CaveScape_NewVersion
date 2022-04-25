@@ -50,10 +50,10 @@ Figura 6: Tela de quando acerta o menor custo para acessar os postos. Mensagem d
 ![image](https://user-images.githubusercontent.com/52542729/165188658-048ae881-d182-43c8-9858-7e55dcbd39ce.png)
 Figura 7: Tela inicial do modo 5.
 
-![image](https://user-images.githubusercontent.com/52542729/165185004-07bd9d9e-3709-4685-9e3d-b74769fce4b0.png)
+![image](https://user-images.githubusercontent.com/52542729/165188822-e684de26-e986-48b1-b388-da019d708dc6.png)
 Figura 8: Tela de quando não acerta o maior valor de CaveCoins que pode levar. Mensagem de Erro.
 
-![image](https://user-images.githubusercontent.com/52542729/165185091-7693de0c-3df4-43f6-98f4-7ec5a3f0202c.png)
+![image](https://user-images.githubusercontent.com/52542729/165188919-25f5fc65-b775-4b85-8d89-49402e3f1401.png)
 Figura 9: Tela de quando acerta o maior valor de caveCoins que pode levar. Mensagem de Acerto.
 
 ### Telas Gerais - Game Over e Vitória
